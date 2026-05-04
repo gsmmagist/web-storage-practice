@@ -1,0 +1,13 @@
+{
+    "name": "Заметка",
+    "short_name": "Notes",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#Of766e",
+    "background_color": "#ecfeff",
+    "icons": [{
+        "src": "/icon.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+    }]
+}

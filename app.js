@@ -23,3 +23,19 @@ clearBtn.addEventListener('click', () => {
   localStorage.removeItem(storageKey);
   noteField.value = '';
 });
+
+const statusText = document.querySelector("#status");
+const checkBtn = document.querySelector("#checkBtn");
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/sw.js")
+    .then(reg => {
+      statusText.textContent = "SW зарегистрирован";
+    })
+  .catch (err => {
+    statusText.textContent = "Запустите через localhost!";
+  });
+}
+checkBtn.addEventListener("click", () => {
+  statusText.textContent = navigator.onLine ? "Сеть есть" : "Офлайн!";
+});
