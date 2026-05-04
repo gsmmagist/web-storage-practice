@@ -3,7 +3,7 @@
     "short_name": "Note",
     "start_url": "/index.html",
     "display": "standalone",
-    "theme_color": "#Of766e",
+    "theme_color": "#0f766e",
     "background_color": "#ecfeff",
     "icons": [{
         "src": "/icon.svg",
