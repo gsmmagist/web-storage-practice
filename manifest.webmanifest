@@ -1,6 +1,6 @@
 {
     "name": "Заметка",
-    "short_name": "Notes",
+    "short_name": "Note",
     "start_url": "/index.html",
     "display": "standalone",
     "theme_color": "#Of766e",
